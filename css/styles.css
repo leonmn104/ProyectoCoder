@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Condensed:wght@300;700&display=swap');
+/*font-family: 'Indie Flower', cursive;*/
+/*font-family: 'Roboto Condensed', sans-serif;*/
+*{
+    margin 0;
+    padding 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+
+}.navegador{
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    top: 0px;
+
+    
+}
+
+.navegador ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.navegador ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 30px;
+    margin-top: auto;
+    
+}
+
+.encabezado{
+    margin-top: 60px;
+}
+
+
+.targeta{
+    width: 280px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+
+    
+}
+.targeta img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+.targeta button{
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    border: 0px;
+    border-radius: 5px;
+    
+
+}
+.icono img{
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    position: fixed;
+    right: 1px;
+    z-index: 1;
+}
+.targetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.finalDePagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: red;
+    color: white;
+
+}
+.finalDePagina ul li  {
+    text-decoration: none;
+    padding: 10px;
+}
+.finalDePagina ul { 
+    list-style-type: none;
+}
+.finalDePagina ul h5{
+    color: black;
+    font-size: 20px;
+    
+    
+}
+.finalDePagina ul iframe{
+    border-radius: 10px;
+    
+}
+/*pagina ¿Quienes Somos? */
+
+form {
+
+    margin: 0 auto;
+    width: 400px;
+    
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  div + div {
+    margin-top: 1px;
+  }
+  label {
+    
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  input,
+  textarea {
+   
+    font: 15px sans-serif;
+  
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ 
+    border: 1px solid #999;
+  }
+  input:focus,
+  textarea:focus {
+   
+    border-color: #000;
+  }
+  textarea {
+    
+    vertical-align: top;
+   
+    height: 50px;
+   
+    resize: vertical;
+  }
+  .button {
+    
+    padding-left: 90px; 
+  }
+  button {
+    
+    margin-left: 1px;
+  }
+
+  .videoYoutube{
+    border-radius: 10px;
+    
+    border: 20px solid red;
+    
+    position: absolute;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+}
+.videos{
+    justify-content: space-evenly;
+}
+
