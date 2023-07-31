@@ -12,7 +12,7 @@
 }.navegador{
     width: 100%;
     background-color: red;
-    position: fixed;
+    
     top: 0px;
 
     
@@ -391,4 +391,36 @@ form {
        -1px 0px 2px rgba(255, 255, 255, 0);
 }
   
- 
+.galeriaFotos {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(4,100px);
+  grid-auto-rows: 300px;
+  grid-gap: 1rem;
+  justify-content: center;
+  grid-template-areas: "img1 img1 img2 img3"
+                       "img1 img1 img2 img3"
+                       "img4 img4 img5 img5"
+                       "img4 img4 img5 img5";
+}
+.img1 {
+  grid-area: img1;
+}
+.img2{
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img4{
+  grid-area: img4;
+}
+.img5 {
+  grid-area: img5;
+}
+
+.galeriaFotos img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
